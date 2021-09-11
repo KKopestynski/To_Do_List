@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/912a476cb6.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="P_07_Lista_ToDo.css">
+</head>
+<body>
+    
+
+<div class="todo">
+    <div class="header">
+        <h1>ToDo List</h1>
+        <input type="text" class="todoInput" placeholder="Wpisz treść zadania...">
+        <button class="addBtn">Add</button>
+    </div>
+    <div class="todoList">
+        <h3>Lista zadań:</h3>
+        <p class="alertInfo">Brak zadań na liście.</p>
+        <ul>
+                <!-- <li id='test'>Wypić kawę<div class="tools"><button class="complete"><i
+                            class="fas fa-check"></i></button><button class="edit">EDIT</button><button
+                        class="delete"><i class="fas fa-times"></i></button>
+                </div>
+                </li>
+                <li id='test2'>Zjeść śniadanie<div class="tools"><button class="complete"><i
+                                class="fas fa-check"></i></button><button class="edit">EDIT</button><button
+                            class="delete"><i class="fas fa-times"></i></button>
+                    </div>
+                </li>
+                <li id='test3'>Umyć okna<div class="tools"><button class="complete"><i
+                                class="fas fa-check"></i></button><button class="edit">EDIT</button><button
+                            class="delete"><i class="fas fa-times"></i></button>
+                    </div>
+                </li> -->
+        </ul>
+    </div>
+</div>
+
+<div class="popup">
+    <h3>Edytuj zadanie:</h3>
+    <div class="popupBody">
+        <p class="popupInfo"></p>
+        <input type="text" class="popupInput" placeholder="Wprowadź nową treść zadania...">
+        <button class="popupBtn accept">Zatwierdź</button>
+        <button class="popupBtn cancel">Anuluj</button>
+    </div>
+</div>
+
+<script src="P_07_Lista_ToDo.js"></script>
+</body>
+</html>
